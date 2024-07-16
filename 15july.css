@@ -1,0 +1,20 @@
+/* Descendant Selector */
+div p{
+    background-color: beige;
+}
+/* Child Selector (>) */
+div>div>p{
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+/* Adjacent Sibling Selector (+) */
+div+p{
+    background-color: blue;
+    text-shadow: 20px;
+}
+/* General Sibling Selector (~) */
+div~p{
+    background-color: green;
+    }
+    
