@@ -1,20 +1,22 @@
-/* Descendant Selector */
-div p{
-    background-color: beige;
+
+/* p:hover{
+    background-color: sandybrown;
+    border: 2px solid green;
+    height: 200px;
+    width: 200px;
+} */
+/* .p::after{
+    content: "Hello World";
+} */
+/* .p1::before{
+    content: "Hello World";
+} */
+/* .p1::backdrop{
+    content: "Hello World";
+} */
+.main{
+    background-color: sandybrown;
+    /* border: 2px solid green; */
+    width: 200px;
+    height: 200px;
 }
-/* Child Selector (>) */
-div>div>p{
-    background-color: aquamarine;
-    text-align: center;
-    
-}
-/* Adjacent Sibling Selector (+) */
-div+p{
-    background-color: blue;
-    text-shadow: 20px;
-}
-/* General Sibling Selector (~) */
-div~p{
-    background-color: green;
-    }
-    
