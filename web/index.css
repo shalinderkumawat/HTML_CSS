@@ -76,9 +76,10 @@
 .marquee{
      /* position: relative;  */
     /* left: auto; */
-    height: 40px;
+    height: 90px;
     width: 964.8px; 
     margin: auto;
+    /* background-color: aqua; */
 }
 .marquee marquee{
     overflow: auto;
