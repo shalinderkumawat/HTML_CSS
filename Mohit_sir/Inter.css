@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    border: solid 2px black;
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    background-color: #b52217 ;
+    color: aliceblue;
+    position: fixed;    
+}
+.Name{
+    
+    padding-top: 64px ;
+    padding-bottom: 64px ;
+    padding-left: 68px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    
+   
+}
+.buttones{
+   
+    padding-bottom: 64px ;
+    padding-left: 68px;
+    font-family: "Poppins", sans-serif;
+   
+    /* font-size: 24px; */
+    .insidebuttones{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+        
+        
+
+    }
+    
+}
+.insidebuttones :hover{
+    color: aliceblue;
+    width: 100%;
+    box-shadow: none;
+}
+
+.Main{
+    display: flex;
+    background-color: aqua;
+    height: 100%;
+    margin-left: 340px;
+    margin-right: 40px;
+    
+}
+.header{
+   
+   position: absolute;
+   padding-left: 400px ;
+
+}
+.img{
+    display: flex;
+    margin-top: 300px;
+    
+}
+.imgin{
+    width: 436px;
+    height: 360.65px;
+    margin: 5px;
+    margin-right: 20px;
+}
+.threeimg{
+    display: flex;
+    .three{
+        background-color: aliceblue;
+        width: 301px;
+        height: 404.68px;
+        margin: 5px;
+        text-align: center;
+        .h3{
+            padding-left: 2px;
+        }
+    }
+}
+.passage{
+    display: flex;
+    
+    
+}
+
+
+
+
+.threeimgh{
+    width: 258.86px;
+    height: auto;
+    margin: 5px;
+}
