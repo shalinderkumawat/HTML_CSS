@@ -46,7 +46,7 @@ nav{
 
 .Main{
     display: flex;
-    background-color: aqua;
+    background-color: rgb(199, 212, 212);
     height: 100%;
     margin-left: 340px;
     margin-right: 40px;
@@ -61,6 +61,7 @@ nav{
 .img{
     display: flex;
     margin-top: 300px;
+    
     
 }
 .imgin{
@@ -83,7 +84,8 @@ nav{
     }
 }
 .passage{
-    display: flex;
+    /* display: flex; */
+    justify-content: center;
     
     
 }
