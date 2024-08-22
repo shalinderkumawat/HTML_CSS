@@ -45,12 +45,12 @@ nav{
 }
 
 .Main{
-    display: flex;
-    background-color: rgb(199, 212, 212);
-    height: 100%;
-    margin-left: 340px;
-    margin-right: 40px;
     
+    background-color: rgb(199, 212, 212);
+    width: 77%;
+    
+    padding-left: 340px;
+        
 }
 .header{
    
@@ -58,43 +58,28 @@ nav{
    padding-left: 400px ;
 
 }
-.img{
-    display: flex;
-    margin-top: 300px;
+.imgsix{
     
-    
+     margin-left: 70px;
+     position: relative;
 }
-.imgin{
-    width: 436px;
-    height: 360.65px;
-    margin: 5px;
-    margin-right: 20px;
-}
-.threeimg{
-    display: flex;
-    .three{
-        background-color: aliceblue;
-        width: 301px;
-        height: 404.68px;
-        margin: 5px;
-        text-align: center;
-        .h3{
-            padding-left: 2px;
-        }
-    }
-}
-.passage{
-    /* display: flex; */
-    justify-content: center;
-    
-    
+#six{
+    width: 500px;
+    height: 400px;
+    padding: 10px;     
 }
 
+h3{
+    color: #b52217;
+    font-family: Poppins, sans-serif;
+    margin-left: 70px;
+    position: relative;
+    font-size: 64px;
 
-
-
-.threeimgh{
-    width: 258.86px;
-    height: auto;
-    margin: 5px;
+}
+#text{
+    font-family:  Poppins, sans-serif;
+    margin-left: 90px;
+    fo
+    
 }
