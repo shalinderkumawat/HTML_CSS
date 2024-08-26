@@ -18,9 +18,14 @@
         justify-content: space-evenly;
     
     }
+    header h1{
+        padding: auto;
+        padding: 10px 0px;
+        font-size: x-large;
+    }
     header ul{
         display: flex;
-        padding: 10px 0px;
+        padding: 20px 0px;
         
     }
     header ul li{
@@ -30,28 +35,64 @@
         margin-left: 30px;
         
     }
+    header ul li:hover{
+
+        color: yellow;
+        
+    }
 
     .span{
         size: 10px;
         padding: 10px 0px;
     }
     .button{
-        background-color: rgb(214, 213, 212);
-        padding: 5px 15px;
+        background-color: rgb(188, 122, 56);
+        padding: 8px 20px;
         border: none;
         border-radius: 7px;
+        color: beige;
+    }
+    .button:hover{
+        background-color: antiquewhite;
+        color: black;
+    }
+    .new-li ul{
+        position: absolute;
+        margin-top: 20px;
+        display: flex;
+    
+    }
+    .this{
+        display: none;
+    }
+    .this:hover
+    {   
+        visibility: visible;
+    }
+    .new-li ul li{
+        color: black;
+        /* position: absolute; */
+        
     }
 
 </style>
 <body>
    <header>
    
-    <h1>logo</h1>
+    <h1 style="color: black;"><a href="" style="text-decoration: none; color: black;">SIXTEEN<span style="color: brown;">CLOTHE</a></span></h1>
     
     <ul>
         <li>Home</li>
         <li>Home</li>
-        <li>Home</li>
+        <li class="new-li">Home
+            <ul class="this">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </li>
         <li>Home</li>
         <li>Home</li>
     </ul>
