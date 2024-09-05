@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+.cart{
+    border: 2px solid black;
+    width:400px;
+    height: 400px;
+    
+    justify-content: center;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: inset;
+    box-shadow: 0px 0px 10px 10px bisque;
+}
+.img{
+    background-color: rgb(72, 72, 225);
+    height: 150px;
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+img{
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+    padding: 90px 125px;
+}
+.text{
+    background-color: azure;
+    display: flex;
+}
+h3{
+    margin-top: 73px;
+    padding-left: 75px;
+}
+button{
+
+ margin-top: 100px;
+ margin-left: 150px;
+ background-color: rgb(184, 78, 119);
+ border-radius: 20px;
+ width: 100px;
+ height: 40px;
+
+}
