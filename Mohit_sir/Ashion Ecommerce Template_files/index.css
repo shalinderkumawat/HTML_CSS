@@ -268,3 +268,23 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.intst{
+
+    width: 100vw;
+    display: flex;
+    margin: 0px;
+    margin-top: 300px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.intst img{
+   
+    width: auto;
+    
+}
+.intst img:hover{
+    background-color: white;
+    z-index: -1px;
+}
+
