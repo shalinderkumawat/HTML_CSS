@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.Main{
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+}
+.img{
+    border: 2px solid black;
+    width: auto;
+   
+    display: flex;
+    
+}
+.leftimg{
+    /* overflow: hidden; */
+    width: 133.3px;
+    /* border: 2px solid black; */
+}
+#smoll{
+    width: 133.3px;
+    /* height: 150px; */
+    padding: 20px;
+}
+#rightimg{
+    
+    margin: auto;
+    /* padding: 10px; */
+    
+}
+.out{
+    display: flex;
+    margin: 10px;
+}
+
+.info{
+    
+    border: 2px solid black;
+    padding: 20px;
+}
